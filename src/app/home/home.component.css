@@ -1,0 +1,303 @@
+.st-header {
+  height: 100vh;
+  width: 100%;
+  background: url(../../assets/images/header-background-right.7329463161614f67317a.webp)
+    no-repeat 100% 0;
+  background-size: auto 105%;
+}
+.st-header .st-col-info .st-inner-block {
+  margin: auto;
+  max-width: 400px;
+}
+.st-header .st-col-info .st-inner-block .st-action-items .btn-signup {
+  background: linear-gradient(113.19deg, #8482f1 4.22%, #4643ef);
+  border-radius: 10px;
+}
+.st-header .st-col-info .st-inner-block .st-action-items .btn-signup:hover {
+  background: linear-gradient(113.19deg, #6e6bf1 4.22%, #3834f8);
+}
+.st-header .st-col-info .st-inner-block .st-action-items .btn-login {
+  border-color: #7370ff;
+  color: #212529;
+}
+.st-header .st-col-info .st-inner-block .st-rating .st-rating-info svg {
+  fill: #f6d800;
+  height: 15px;
+}
+.st-header .st-col-info .st-inner-block .st-rating .st-rating-info .st-text {
+  font-size: 14px;
+}
+.st-header
+  .st-col-info
+  .st-inner-block
+  .st-rating
+  .st-review-sites
+  .st-review-site {
+  margin-right: 10px;
+}
+
+.st-header
+  .st-col-info
+  .st-inner-block
+  .st-rating
+  .st-review-sites
+  .st-review-site
+  .st-site-image {
+  height: 15px;
+  width: auto;
+}
+.st-header .st-col-illustration .st-animation-wrap {
+  min-width: 100%;
+  cursor: pointer;
+  position: relative;
+}
+.st-header .st-col-illustration .st-animation-wrap ng-lottie {
+  height: 100%;
+  min-width: 100%;
+  cursor: pointer;
+}
+.st-header .st-col-illustration .st-animation-wrap .btn-play-video {
+  position: absolute;
+  height: 14vh;
+  width: 14vh;
+  top: calc(50% - 7vh);
+  left: calc(50% - 7vh);
+  z-index: 10;
+  border-radius: 50%;
+  transition: opacity, box-shadow 0.5s;
+  opacity: 1;
+}
+.st-header .st-col-illustration:hover .btn-play-video {
+  box-shadow: 0 3px 25px #8a88fc;
+}
+.st-header:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: url(../../assets/images/header-background-left.3e84eaa5819bf0c3c502.webp)
+    no-repeat 0 100%;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 991px) {
+  .st-header {
+    background: none;
+  }
+  .st-header .st-col-info .st-inner-block {
+    margin-top: 80px;
+    max-width: 80%;
+  }
+  .st-header .st-col-illustration {
+    height: auto !important;
+  }
+  .st-header:before {
+    background: none;
+  }
+}
+.st-teams {
+  background: #f8f8ff;
+}
+.st-teams .st-teams-info {
+  color: #999;
+  font-size: 22px;
+}
+.st-teams .st-team-images .st-team-logo {
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 40px;
+  fill: #bab6c3;
+}
+.st-setup-demo .st-outer-container {
+  padding: 50px;
+  max-width: 1200px;
+}
+.st-section-custom {
+  padding: 50px 0;
+  position: relative;
+}
+.st-section-custom .st-section-header {
+  margin-bottom: 40px;
+}
+.st-section-custom .st-content {
+  font-size: 18px;
+  color: #999;
+}
+@media (min-width: 768px) {
+  .st-section-custom {
+    min-height: 600px;
+  }
+}
+app-main-nav-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  border: 0;
+  width: 100%;
+  min-height: 50px !important;
+  height: 50px !important;
+  background: transparent;
+  box-shadow: 0;
+  transition: transform 0.3s ease-out, background-color 0.3s ease-out;
+  font-size: 18px;
+  display: flex;
+  justify-content: space-around;
+  box-align: center;
+  -moz-align-items: center;
+  -ms-align-items: center;
+  -o-align-items: center;
+  align-items: center;
+  -ms-flex-align: center;
+  box-pack: space-between;
+  -moz-justify-content: space-between;
+  -ms-justify-content: space-between;
+  -o-justify-content: space-between;
+  justify-content: space-between;
+  -ms-flex-pack: space-between;
+}
+@media (min-width: 60em) {
+  app-main-nav-bar {
+    position: fixed;
+    top: 0 !important;
+    left: 0;
+    right: 0;
+  }
+}
+app-main-footer {
+  width: 100%;
+  clear: both;
+  background-color: #242f42;
+  display: block;
+}
+app-setup-demo {
+  display: block;
+  background: linear-gradient(113.19deg, #6f6ced 4.22%, #4643ef);
+  border-radius: 15px;
+  box-shadow: 2px 3px 15px #cecdff;
+  position: relative;
+  padding: 20px;
+}
+
+@media (max-width: 991px) {
+  app-setup-demo .demo-info-wrap .st-col-info {
+    box-align: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+  }
+  app-setup-demo .demo-info-wrap .st-col-info .st-col-header {
+    margin-bottom: 15px;
+  }
+}
+
+app-setup-demo
+  .demo-info-wrap
+  .st-col-actions
+  .st-action-item
+  .btn.st-btn-schedule {
+  background: #7b68ee;
+}
+app-setup-demo
+  .demo-info-wrap
+  .st-col-actions
+  .st-action-item
+  .btn.st-btn-demo {
+  background: #fd2283;
+}
+
+@media (max-width: 767px) {
+  app-setup-demo .demo-info-wrap .st-col-actions {
+    flex-wrap: wrap;
+  }
+}
+app-setup-demo:before {
+  border-radius: 15px;
+  overflow: hidden;
+  content: "";
+  display: block;
+  position: absolute;
+  background: url(../../assets/images/background-book.1300db977f780d1dc8fd.webp)
+    no-repeat 100%;
+  background-size: 100% 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+@media (max-width: 991px) {
+  app-setup-demo:before {
+    background: none;
+  }
+}
+app-setup-demo.st-small-container:before {
+  background: none;
+}
+.st-header .st-col-info .st-inner-block .st-rating .st-rating-info .st-text {
+  font-size: 14px;
+}
+.st-header
+  .st-col-info
+  .st-inner-block
+  .st-rating
+  .st-review-sites
+  .st-review-site {
+  margin-right: 10px;
+}
+.st-header
+  .st-col-info
+  .st-inner-block
+  .st-rating
+  .st-review-sites
+  .st-review-site
+  .st-site-image {
+  height: 15px;
+  width: auto;
+}
+.d-flex {
+  display: flex;
+}
+.sticky,
+.sticky-force {
+  background: #fff;
+  box-shadow: 0 1px 2px 0 rgba(36, 50, 66, 0.15);
+  position: fixed;
+}
+.sticky #links .nav-items .btn a {
+  color: #646f79;
+}
+.sticky .main-content .actions .btn-register,
+.sticky .main-content .actions .btn-register {
+  background: #504eff;
+}
+.sticky .main-content .actions .btn-register:hover,
+.sticky .main-content .actions .btn-register:hover {
+  background: #6866f6;
+}
+.sticky .main-content .actions .btn-login,
+.sticky .on-collapse .btn-open-dropdown,
+.sticky .main-content .actions .btn-login,
+.sticky .on-collapse .btn-open-dropdown {
+  color: #646f79;
+}
+/* app-main-nav-bar .sticky {
+  box-sizing: border-box;
+  z-index: 1000;
+  border: 0;
+  width: 100%;
+  min-height: 50px !important;
+  height: 50px !important;
+  transition: transform 0.3s ease-out, background-color 0.3s ease-out;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 0 !important;
+  left: 0;
+  right: 0;
+  background: #fff;
+  box-shadow: 0 1px 2px 0 rgba(36, 50, 66, 0.15);
+  position: fixed;
+} */

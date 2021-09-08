@@ -1,0 +1,45 @@
+.demo-info-wrap {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  font-family: Gordita, sans-serif;
+  box-sizing: border-box;
+  display: block;
+}
+.demo-info-wrap .st-col-actions .st-action-item .btn.st-btn-chat {
+  background: #fd7500;
+  color: #fff;
+}
+.demo-info-wrap .st-col-actions .st-action-item {
+  background: #fff;
+  border-radius: 19px;
+  box-shadow: 0 3px 8px #ddd;
+  padding: 20px;
+}
+.demo-info-wrap .st-col-actions .st-action-item .btn {
+  margin-top: 10px;
+  min-width: 145px;
+}
+.demo-info-wrap .st-col-actions {
+  gap: 20px;
+}
+.demo-info-wrap .st-col-info {
+  display: flex;
+  box-orient: vertical;
+  -moz-flex-direction: column;
+  flex-direction: column;
+  box-pack: center;
+  -moz-justify-content: center;
+  -ms-justify-content: center;
+  -o-justify-content: center;
+  justify-content: center;
+  -ms-flex-pack: center;
+}
+.demo-info-wrap .st-col-info .st-col-header {
+  color: #fff;
+}
+.demo-info-wrap {
+  color: #fff;
+}

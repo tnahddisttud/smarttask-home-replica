@@ -1,0 +1,39 @@
+.upper-footer {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  font-family: Gordita, sans-serif;
+  box-sizing: border-box;
+  padding: 50px 25px 10px;
+  background-color: #293447;
+}
+.lower-footer {
+  background-color: #2e3b51;
+  padding: 20px 25px;
+}
+.lower-footer .container .app-links .app-link {
+  display: inline-block;
+  vertical-align: middle;
+}
+.lower-footer .container .app-links .app-link.ios {
+  margin-left: 20px;
+}
+.lower-footer .container .app-links .app-link .app-icon {
+  height: 35px;
+}
+.lower-footer .container .social-share .social-link i {
+  font-size: 1.5em;
+}
+.container .row h4 {
+  color: #e1e2e4;
+  text-transform: uppercase;
+}
+.container .row a {
+  color: #bababa !important;
+  cursor: pointer;
+}
+.container.lower-footer {
+  border-top: 1px solid #0f141b;
+}

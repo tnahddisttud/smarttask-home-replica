@@ -1,0 +1,120 @@
+<section class="st-main-views st-section-custom">
+  <div class="container">
+    <h2 class="st-section-header text-center">
+      Utilize a View that best suits you!
+    </h2>
+    <div class="row align-items-center">
+      <div class="col-lg-4 st-actions">
+        <div
+          class="st-action-item selected"
+          (click)="view = 'view1'"
+          [ngClass]="{ selected: view === 'view1' }"
+        >
+          <div class="st-action-header">
+            <svg class="st-icon st-icon-list" viewBox="0 0 21 23">
+              <use xlink:href="#list"></use>
+            </svg>
+            <div class="st-header-text">List</div>
+          </div>
+          <div *ngIf="view == 'view1'" class="st-action-content">
+            <div class="st-action-content-text">
+              With List view the team has clear idea on the task's assignee,
+              priority and when it's due.
+            </div>
+          </div>
+          <!---->
+        </div>
+        <div
+          class="st-action-item"
+          (click)="view = 'view2'"
+          [ngClass]="{ selected: view === 'view2' }"
+        >
+          <div class="st-action-header">
+            <svg class="st-icon st-icon-board" viewBox="0 0 21 23">
+              <use xlink:href="#board"></use>
+            </svg>
+            <div class="st-header-text">Board</div>
+          </div>
+          <div *ngIf="view == 'view2'" class="st-action-content">
+            <div class="st-action-content-text">
+              The team has a clear understanding of the task's current stage and
+              where things are getting stuck.
+            </div>
+          </div>
+          <!---->
+        </div>
+        <div
+          class="st-action-item"
+          (click)="view = 'view3'"
+          [ngClass]="{ selected: view === 'view3' }"
+        >
+          <div class="st-action-header">
+            <svg class="st-icon st-icon-calendar" viewBox="0 0 23 23">
+              <use xlink:href="#calendar"></use>
+            </svg>
+            <div class="st-header-text">Calendar</div>
+          </div>
+          <div *ngIf="view == 'view3'" class="st-action-content">
+            <div class="st-action-content-text">
+              Helps the team have clarity on the task's start and due date. Also
+              helps in understanding the team's workload for a particular day or
+              week.
+            </div>
+          </div>
+          <!---->
+        </div>
+        <div
+          class="st-action-item"
+          (click)="view = 'view4'"
+          [ngClass]="{ selected: view === 'view4' }"
+        >
+          <div class="st-action-header">
+            <svg class="st-icon st-icon-gantt-2" viewBox="0 0 23 22">
+              <use xlink:href="#gantt-2"></use>
+            </svg>
+            <div class="st-header-text">Timeline</div>
+          </div>
+          <div *ngIf="view == 'view4'" class="st-action-content">
+            <div class="st-action-content-text">
+              See how the work pans out over time. Set dependencies and schedule
+              tasks automatically if need be. Also check how the current plan
+              compares with the original one (Baseline).
+            </div>
+          </div>
+          <!---->
+        </div>
+        <!---->
+      </div>
+      <div
+        class="
+          col-lg-8
+          st-col-illustration
+          d-flex
+          align-items-center
+          justify-content-center
+          h-100
+        "
+      >
+        <img
+          *ngIf="view == 'view1'"
+          src="../../assets/images/home/section-main-views/list.webp"
+        />
+        <img
+          *ngIf="view == 'view2'"
+          src="../../assets/images/home/section-main-views/board.webp"
+        />
+        <img
+          *ngIf="view == 'view3'"
+          src="../../assets/images/home/section-main-views/calendar.webp"
+        />
+        <img
+          *ngIf="view == 'view4'"
+          src="../../assets/images/home/section-main-views/timeline.webp"
+        />
+        <ng-lottie class="img-fluid">
+          <div style="width: 100%; height: 100%"></div>
+        </ng-lottie>
+      </div>
+    </div>
+  </div>
+</section>

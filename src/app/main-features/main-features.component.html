@@ -1,0 +1,240 @@
+<section _ngcontent-sc118="" class="st-features st-section-custom">
+  <h2 _ngcontent-sc118="" class="st-section-header text-center">
+    Features your team would love
+  </h2>
+  <div _ngcontent-sc118="" class="container st-container-buttons">
+    <div _ngcontent-sc118="" class="row">
+      <div
+        _ngcontent-sc118=""
+        class="col-12 d-flex align-items-center justify-content-around"
+      >
+        <div
+          _ngcontent-sc118=""
+          (click)="step = 'step1'"
+          class="
+            st-btn-select-feature
+            d-flex
+            align-items-center
+            justify-content-center
+            selected
+          "
+          [ngClass]="{ selected: step === 'step1' }"
+        >
+          <svg _ngcontent-sc118="" class="st-feature-icon" viewBox="0 0 21 23">
+            <use _ngcontent-sc118="" xlink:href="#list"></use>
+          </svg>
+          <div _ngcontent-sc118="" class="st-border-bottom-select"></div>
+        </div>
+        <div
+          _ngcontent-sc118=""
+          class="
+            st-btn-select-feature
+            d-flex
+            align-items-center
+            justify-content-center
+          "
+          (click)="step = 'step2'"
+          [ngClass]="{ selected: step === 'step2' }"
+        >
+          <svg _ngcontent-sc118="" class="st-feature-icon" viewBox="0 0 35 35">
+            <use _ngcontent-sc118="" xlink:href="#chart"></use>
+          </svg>
+          <div _ngcontent-sc118="" class="st-border-bottom-select"></div>
+        </div>
+        <div
+          _ngcontent-sc118=""
+          class="
+            st-btn-select-feature
+            d-flex
+            align-items-center
+            justify-content-center
+          "
+          (click)="step = 'step3'"
+          [ngClass]="{ selected: step === 'step3' }"
+        >
+          <svg _ngcontent-sc118="" class="st-feature-icon" viewBox="0 0 37 24">
+            <use _ngcontent-sc118="" xlink:href="#eye"></use>
+          </svg>
+          <div _ngcontent-sc118="" class="st-border-bottom-select"></div>
+        </div>
+        <div
+          _ngcontent-sc118=""
+          class="
+            st-btn-select-feature
+            d-flex
+            align-items-center
+            justify-content-center
+          "
+          (click)="step = 'step4'"
+          [ngClass]="{ selected: step === 'step4' }"
+        >
+          <svg _ngcontent-sc118="" class="st-feature-icon" viewBox="0 0 37 29">
+            <use _ngcontent-sc118="" xlink:href="#z"></use>
+          </svg>
+          <div _ngcontent-sc118="" class="st-border-bottom-select"></div>
+        </div>
+        <div
+          _ngcontent-sc118=""
+          class="
+            st-btn-select-feature
+            d-flex
+            align-items-center
+            justify-content-center
+          "
+          (click)="step = 'step5'"
+          [ngClass]="{ selected: step === 'step5' }"
+        >
+          <svg _ngcontent-sc118="" class="st-feature-icon" viewBox="0 0 34 28">
+            <use _ngcontent-sc118="" xlink:href="#people"></use>
+          </svg>
+          <div _ngcontent-sc118="" class="st-border-bottom-select"></div>
+        </div>
+        <div
+          _ngcontent-sc118=""
+          class="
+            st-btn-select-feature
+            d-flex
+            align-items-center
+            justify-content-center
+          "
+          (click)="step = 'step6'"
+          [ngClass]="{ selected: step === 'step6' }"
+        >
+          <svg _ngcontent-sc118="" class="st-feature-icon" viewBox="0 0 31 34">
+            <use _ngcontent-sc118="" xlink:href="#360-degree"></use>
+          </svg>
+          <div _ngcontent-sc118="" class="st-border-bottom-select"></div>
+        </div>
+        <div
+          _ngcontent-sc118=""
+          class="
+            st-btn-select-feature
+            d-flex
+            align-items-center
+            justify-content-center
+          "
+          (click)="step = 'step7'"
+          [ngClass]="{ selected: step === 'step7' }"
+        >
+          <svg _ngcontent-sc118="" class="st-feature-icon" viewBox="0 0 28 34">
+            <use _ngcontent-sc118="" xlink:href="#time-tracking"></use>
+          </svg>
+          <div _ngcontent-sc118="" class="st-border-bottom-select"></div>
+        </div>
+        <!---->
+      </div>
+    </div>
+  </div>
+  <div _ngcontent-sc118="" class="container st-container-visual">
+    <div _ngcontent-sc118="" class="row">
+      <div
+        _ngcontent-sc118=""
+        class="
+          col-lg-4
+          order-lg-2
+          st-col-content
+          d-flex
+          align-items-center
+          justify-content-center
+        "
+      >
+        <div [ngSwitch]="step" class="st-inner-block">
+          <h3 *ngSwitchCase="'step1'" class="st-content-header">
+            Create your own Custom Fields
+          </h3>
+          <div *ngSwitchCase="'step1'" class="st-content">
+            Add more data points to a task through custom Dropdown, Text, Number
+            or Date field.
+          </div>
+          <!---->
+          <h3 *ngSwitchCase="'step2'" class="st-content-header">
+            Visualize data in Customized Analytics View
+          </h3>
+          <div *ngSwitchCase="'step2'" class="st-content">
+            Filter data, create custom charts and generate insights.
+          </div>
+          <!---->
+          <h3 *ngSwitchCase="'step3'" class="st-content-header">
+            Eagle eye view of all your ongoing projects
+          </h3>
+          <div *ngSwitchCase="'step3'" class="st-content">
+            Create multiple team portfolios. Track project statuses and
+            predicted completion date in one single view.
+          </div>
+          <!---->
+          <h3 *ngSwitchCase="'step4'" class="st-content-header">
+            Team Workload
+          </h3>
+          <div *ngSwitchCase="'step4'" class="st-content">
+            Manage your team's workload in realtime. Making sure the team is not
+            overwhelmed or underworked.
+          </div>
+          <!---->
+          <h3 *ngSwitchCase="'step5'" class="st-content-header">
+            Setup and track inquiries in Sales Pipeline
+          </h3>
+          <div *ngSwitchCase="'step5'" class="st-content">
+            Attach contact and track inquiries through sales pipeline. View
+            estimated sales and sales insights in the dashboard.
+          </div>
+          <!---->
+          <h3 *ngSwitchCase="'step6'" class="st-content-header">
+            360 degree performance insights
+          </h3>
+          <div *ngSwitchCase="'step6'" class="st-content">
+            With productivity scores for each and every person in the team. You
+            would have a better insights on who's performing and who needs help.
+          </div>
+          <!---->
+          <h3 *ngSwitchCase="'step7'" class="st-content-header">
+            Time Tracking
+          </h3>
+          <div *ngSwitchCase="'step7'" class="st-content">
+            Add estimate, track time, cost and billable rate. Build custom
+            reports from within SmartTask
+          </div>
+          <!---->
+          <a _ngcontent-sc118="" class="st-link pt-2" href="/features"
+            >View all features</a
+          >
+          <!---->
+        </div>
+      </div>
+      <div _ngcontent-sc118="" class="col-lg-8 order-lg-1 st-col-illustration">
+        <img
+          *ngIf="step == 'step1'"
+          src="../../assets/images/home/section-features/1.webp"
+        />
+        <img
+          *ngIf="step == 'step2'"
+          src="../../assets/images/home/section-features/2.webp"
+        />
+        <img
+          *ngIf="step == 'step3'"
+          src="../../assets/images/home/section-features/3.webp"
+        />
+        <img
+          *ngIf="step == 'step4'"
+          src="../../assets/images/home/section-features/4.webp"
+        />
+        <img
+          *ngIf="step == 'step5'"
+          src="../../assets/images/home/section-features/5.webp"
+        />
+        <img
+          *ngIf="step == 'step6'"
+          src="../../assets/images/home/section-features/6.webp"
+        />
+        <img
+          *ngIf="step == 'step7'"
+          src="../../assets/images/home/section-features/7.webp"
+        />
+        <!-- <ng-lottie _ngcontent-sc118="" class="img-fluid">
+                    <div style="width:100%;height:100%;"></div>
+                </ng-lottie> -->
+        <!---->
+        <!---->
+      </div>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,125 @@
+.st-features {
+  display: flex;
+  box-pack: space-around;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -o-justify-content: space-around;
+  justify-content: space-around;
+  -ms-flex-pack: space-around;
+  flex-wrap: wrap;
+}
+.st-section-custom {
+  padding: 50px 0;
+  position: relative;
+}
+/* .st-section-custom .st-section-header {
+  margin-bottom: 40px;
+} */
+.st-section-custom .st-content {
+  font-size: 18px;
+  color: #fff;
+}
+@media (min-width: 768px) {
+  .st-section-custom {
+    min-height: 600px;
+  }
+}
+
+section {
+  padding: 50px 0;
+  position: relative;
+  min-height: 600px;
+  background: linear-gradient(90deg, #7f00ff, #5955ed);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.d-flex {
+  display: flex;
+}
+.st-container-buttons {
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+  color: #fff;
+  box-sizing: border-box;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  flex: 0 0 auto;
+  border-bottom: 2px solid #bab6c3;
+  margin-top: -10px;
+}
+.row {
+  color: #fff;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.col-12 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  flex: 0 0 100%;
+  max-width: 100%;
+  display: flex !important;
+  justify-content: space-around !important;
+  align-items: center !important;
+}
+.st-btn-select-feature {
+  align-items: center !important;
+  height: 70px;
+  width: 100px;
+  cursor: pointer;
+  margin-right: 10px;
+  position: relative;
+}
+.st-feature-icon {
+  box-sizing: border-box;
+  vertical-align: middle;
+  overflow: hidden;
+  height: 25px;
+  width: 26px;
+  transition: width 0.5s, height 0.5s;
+  fill: #ccb5ff;
+}
+.selected .st-border-bottom-select {
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -4px;
+  height: 6px;
+  border-radius: 5px;
+  background: linear-gradient(113.19deg, #ffe933 4.22%, #c1d800);
+  display: block;
+}
+
+.selected svg {
+  fill: #ffe933;
+}
+.st-feature-icon:hover {
+  fill: #ffe933;
+}
+.st-border-bottom-select {
+  display: block;
+}
+.st-link {
+  text-decoration: none;
+  background-color: transparent;
+  padding-top: 0.5rem !important;
+  color: #ff0;
+  text-underline-position: under;
+}
+.st-col-illustration img {
+  max-width: 100%;
+  min-height: 530px;
+  max-height: 530px;
+  padding-top: 20px;
+  transform: scale(0.9);
+}
