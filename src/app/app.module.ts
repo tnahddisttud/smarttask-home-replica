@@ -43,7 +43,7 @@ export function playerFactory() {
     //HeaderComponent,
   ],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     NgbModule,
     BrowserAnimationsModule,
     FontAwesomeModule,
