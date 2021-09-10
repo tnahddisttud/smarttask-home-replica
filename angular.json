@@ -15,13 +15,16 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:browser",
+          "builder": "@angular-builders/custom-webpack:browser",
           "options": {
             "outputPath": "dist/smarttask-home-replica/browser",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
+            "customWebpackConfig": {
+              "path": "./custom-webpack.config.js"
+            },
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
@@ -138,9 +141,7 @@
         "prerender": {
           "builder": "@nguniversal/builders:prerender",
           "options": {
-            "routes": [
-              "/"
-            ]
+            "routes": ["/"]
           },
           "configurations": {
             "production": {
