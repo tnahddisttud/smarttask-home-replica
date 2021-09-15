@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { LazyImgDirective } from './lazyImg.directive';
 
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
@@ -41,6 +42,7 @@ export function playerFactory() {
     MainFooterComponent,
     SvgComponentComponent,
     //HeaderComponent,
+    LazyImgDirective,
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
