@@ -4,13 +4,13 @@
   "scripts": {
     "ng": "ng",
     "start": "npm run serve:ssr",
-    "build": "npm run build:ssr",
+    "build": "CI= npm run build",
     "watch": "npm run build --watch --configuration development",
     "test": "ng test",
     "postinstall": "ngcc",
     "dev:ssr": "ng run smarttask-home-replica:serve-ssr",
     "serve:ssr": "node dist/smarttask-home-replica/server/main.js",
-    "build:ssr": "ng run build && ng run smarttask-home-replica:server",
+    "build:ssr": "CI= ng run build && ng run smarttask-home-replica:server",
     "prerender": "ng run smarttask-home-replica:prerender"
   },
   "private": true,
