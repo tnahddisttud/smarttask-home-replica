@@ -4,13 +4,13 @@
   "scripts": {
     "ng": "ng",
     "start": "npm run serve:ssr",
-    "build": "CI= npm run build",
+    "build": "CI= npm run build:ssr",
     "watch": "npm run build --watch --configuration development",
     "test": "ng test",
     "postinstall": "ngcc",
     "dev:ssr": "ng run smarttask-home-replica:serve-ssr",
     "serve:ssr": "node dist/smarttask-home-replica/server/main.js",
-    "build:ssr": "CI= ng run build && ng run smarttask-home-replica:server",
+    "build:ssr": "ng run build && ng run smarttask-home-replica:server",
     "prerender": "ng run smarttask-home-replica:prerender"
   },
   "private": true,
@@ -60,5 +60,9 @@
     "karma-jasmine": "~4.0.0",
     "karma-jasmine-html-reporter": "~1.7.0",
     "typescript": "~4.3.5"
+  },
+  "engines": {
+    "npm": "6.14.6",
+    "node": "v12.18.3"
   }
 }

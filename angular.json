@@ -167,5 +167,8 @@
       }
     }
   },
-  "defaultProject": "smarttask-home-replica"
+  "defaultProject": "smarttask-home-replica",
+  "cli": {
+    "analytics": true
+  }
 }
