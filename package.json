@@ -10,8 +10,8 @@
     "postinstall": "ngcc",
     "dev:ssr": "ng run smarttask-home-replica:serve-ssr",
     "serve:ssr": "node dist/smarttask-home-replica/server/main.js",
-    "build:ssr": "ng run build && ng run smarttask-home-replica:server",
-    "prerender": "ng run smarttask-home-replica:prerender"
+    "build:ssr": "ng build && ng run smarttask-home-replica:server",
+    "prerender": "npm run smarttask-home-replica:prerender"
   },
   "private": true,
   "dependencies": {
