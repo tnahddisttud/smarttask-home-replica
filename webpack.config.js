@@ -4,7 +4,7 @@ module.exports = {
     new BrotliPlugin({
       asset: "[path].br",
       threshold: 0,
-      minRatio: 0.8,
+      minRatio: 0.7,
     }),
   ],
 };
