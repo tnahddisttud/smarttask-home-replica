@@ -9,7 +9,7 @@ import { MainViewsComponent } from './main-views/main-views.component';
 import { CollaborateComponent } from './collaborate/collaborate.component';
 import { MainFeaturesComponent } from './main-features/main-features.component';
 import { TestimonialsComponent } from './testimonials/testimonials.component';
-import { TestimonialComponent } from './testimonial/testimonial.component';
+// import { TestimonialComponent } from './testimonial/testimonial.component';
 import { IntegrationsInfoComponent } from './integrations-info/integrations-info.component';
 import { SetupDemoComponent } from './setup-demo/setup-demo.component';
 import { MainFooterComponent } from './main-footer/main-footer.component';
@@ -36,7 +36,7 @@ export function playerFactory() {
     CollaborateComponent,
     MainFeaturesComponent,
     TestimonialsComponent,
-    TestimonialComponent,
+    // TestimonialComponent,
     IntegrationsInfoComponent,
     SetupDemoComponent,
     MainFooterComponent,
