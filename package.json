@@ -40,7 +40,9 @@
     "ngx-lottie": "^7.0.3",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4"
+    "zone.js": "~0.11.4",
+    "brotli-webpack-plugin": "^1.1.0",
+    "compression-webpack-plugin": "^8.0.1"
   },
   "devDependencies": {
     "@angular-builders/custom-webpack": "^12.1.2",
