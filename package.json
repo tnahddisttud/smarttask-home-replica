@@ -7,7 +7,7 @@
     "build": "CI= npm run build:ssr",
     "watch": "npm run build --watch --configuration production",
     "test": "ng test",
-    "postinstall": "ngcc && webpack -p --config ./webpack.config.js --progress",
+    "postinstall": "ngcc && webpack --mode production --config ./webpack.config.js --progress",
     "dev:ssr": "ng run smarttask-home-replica:serve-ssr",
     "serve:ssr": "node dist/smarttask-home-replica/server/main.js",
     "build:ssr": "ng build --configuration production --aot && ng run smarttask-home-replica:server",
