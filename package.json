@@ -9,7 +9,7 @@
     "test": "ng test",
     "postinstall": "ngcc",
     "dev:ssr": "ng run smarttask-home-replica:serve-ssr",
-    "serve:ssr": "node dist/smarttask-home-replica/server/main.js",
+    "serve:ssr": "ng build --configuration production && ng run smarttask-home-replica:server && node dist/smarttask-home-replica/server/main.js",
     "build:ssr": "ng build --configuration production && ng run smarttask-home-replica:server",
     "prerender": "npm run smarttask-home-replica:prerender"
   },
@@ -35,14 +35,15 @@
     "@ng-bootstrap/ng-bootstrap": "^10.0.0",
     "@nguniversal/express-engine": "^12.1.0",
     "bootstrap": "^4.5.0",
+    "brotli-webpack-plugin": "^1.1.0",
+    "compression-webpack-plugin": "^8.0.1",
     "express": "^4.15.2",
+    "express-static-gzip": "^2.1.1",
     "lottie-web": "^5.7.13",
     "ngx-lottie": "^7.0.3",
     "rxjs": "~6.6.0",
     "tslib": "^2.3.0",
-    "zone.js": "~0.11.4",
-    "brotli-webpack-plugin": "^1.1.0",
-    "compression-webpack-plugin": "^8.0.1"
+    "zone.js": "~0.11.4"
   },
   "devDependencies": {
     "@angular-builders/custom-webpack": "^12.1.2",
