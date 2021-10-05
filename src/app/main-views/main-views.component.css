@@ -15,7 +15,7 @@
   }
 }
 .st-main-views {
-  background: url(../../assets/images/background-right.32574e04accd6b57f685.webp)
+  background: url(https://d36ap318v9tekz.cloudfront.net/assets/images/background-right.32574e04accd6b57f685.webp)
     no-repeat 100% 0;
   background-size: 100% 100%;
   padding-bottom: 0 !important;
@@ -92,7 +92,7 @@
   content: "";
   display: block;
   position: absolute;
-  background: url(../../assets/images/background-left.af2db992e24bcd5f713e.webp)
+  background: url(https://d36ap318v9tekz.cloudfront.net/assets/images/background-left.af2db992e24bcd5f713e.webp)
     no-repeat 0 100%;
   background-size: 100% 100%;
   top: 0;

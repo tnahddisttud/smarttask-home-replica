@@ -1,7 +1,7 @@
 .st-header {
   height: 100vh;
   width: 100%;
-  background: url(https://smarttasktest.s3.ap-south-1.amazonaws.com/assets/images/header-background-right.7329463161614f67317a.webp)
+  background: url(https://d36ap318v9tekz.cloudfront.net/assets/images/header-background-right.7329463161614f67317a.webp)
     no-repeat 100% 0;
   background-size: auto 105%;
 }
@@ -74,7 +74,7 @@
   content: "";
   display: block;
   position: absolute;
-  background: url(https://smarttasktest.s3.ap-south-1.amazonaws.com/assets/images/header-background-left.3e84eaa5819bf0c3c502.webp)
+  background: url(https://d36ap318v9tekz.cloudfront.net/assets/images/header-background-left.3e84eaa5819bf0c3c502.webp)
     no-repeat 0 100%;
   background-size: cover;
   height: 100%;
@@ -219,7 +219,7 @@ app-setup-demo:before {
   content: "";
   display: block;
   position: absolute;
-  background: url(https://smarttasktest.s3.ap-south-1.amazonaws.com/assets/images/background-book.1300db977f780d1dc8fd.webp)
+  background: url(https://d36ap318v9tekz.cloudfront.net/assets/images/background-book.1300db977f780d1dc8fd.webp)
     no-repeat 100%;
   background-size: 100% 100%;
   top: 0;

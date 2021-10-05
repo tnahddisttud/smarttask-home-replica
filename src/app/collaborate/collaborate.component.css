@@ -22,7 +22,7 @@
   }
 }
 .st-collaborate {
-  background: url(../../assets/images/collaborate-background-right.5221943fd694254657b2.webp)
+  background: url(https://d36ap318v9tekz.cloudfront.net/assets/images/collaborate-background-right.5221943fd694254657b2.webp)
     no-repeat 100% 0;
   background-size: 100% 100%;
 }
@@ -67,7 +67,7 @@
   content: "";
   display: block;
   position: absolute;
-  background: url(../../assets/images/collaborate-background-left.5b4cac94aee1010f6017.webp)
+  background: url(https://d36ap318v9tekz.cloudfront.net/assets/images/collaborate-background-left.5b4cac94aee1010f6017.webp)
     no-repeat 0 0;
   background-size: 100% 100%;
   top: 0;
